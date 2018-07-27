@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "userstory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "make": "parcel build ./src/index.html -d dist --no-source-maps --public-url /userstory/",
+    "build": "npm run clean && npm run make",
+    "serve": "parcel ./src/index.html",
+    "clean": "rimraf dist .cache",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "keywords": [
+    "user story",
+    "javascript",
+    "tool"
+  ],
+  "author": "Rayraegah <rayraegah@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "clipboard": "^2.0.4",
+    "sweetalert2": "^8.14.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "gh-pages": "^2.0.1",
+    "rimraf": "^2.6.3"
+  }
+}
