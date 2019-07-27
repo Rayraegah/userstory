@@ -17,7 +17,7 @@
     "tool"
   ],
   "author": "Rayraegah <rayraegah@gmail.com>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "dependencies": {
     "clipboard": "^2.0.4",
     "sweetalert2": "^8.14.0"
