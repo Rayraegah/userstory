@@ -1,0 +1,21 @@
+{
+	"title": "A natural language user story creator",
+	"help-message": "Click one of the underlined phrases",
+
+	"noun-ui": "User",
+	"noun-message": "The subject, a noun e.g. User, Logged In User, Free User, Paid User, Administrator, Developer, etc.",
+
+	"desire-ui": "I want to",
+	"desire-message": "I want to, I do not want to, I should be able to, I should not be able to, etc.",
+	
+	"action-ui": "do a thing",
+	"action-message": "What you would like or not like to accomplish",
+	
+	"condition-ui": "so that",
+	"condition-message": "Qualifier e.g. so that, because, in order to, etc.",
+	
+	"reason-ui": "I can be a happy user",
+	"reason-message": "The reason you want or don't want the action you typed",
+	
+	"button-ui": "copy"
+}
